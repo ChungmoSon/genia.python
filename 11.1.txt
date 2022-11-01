@@ -1,0 +1,84 @@
+<P1> 
+first_input_num = input("Input the first number")
+operator = input("Which operater do you want to use?(+ or -)")
+second_input_num = input("Input the second number")
+if operator is +: result = first_input_num + second_input_num
+elif operator is -: result = first_input_num - second_input_num 
+print("The result is", result)
+
+<P2>  
+first_input_num = input("Input the first number")
+second_input_num = input("Input the second number")
+if first_input_num>second_input_num: print(first_input_num "is bigger than" second_input_num)
+elif first_input_num<second_input_num: print(first_input_num "is smaller than" second_input_num)
+else: print((first_input_num "is equal with" second_input_num)
+
+<P3> 
+철수's score = 96
+영희's score = 86
+if 철수's score>영희's score: print("철수 is better person than 영희")
+elif 철수's score<영희's score: print("영희 is better person than 철수")
+else: print("영희 and 철수 are same good person")
+
+<P4>
+x = input("Input a number")
+if 0 < x and x < 40: print("correct")
+else: print("wrong")
+
+<P5>
+1. int(정수라서)
+2. float(소수, 지수가 사용되어서)
+3. float(소수라서)
+4. float(정수와 정수의 나눗셈이지만 결과값이 0.5가 되어 소수가 되기 때문)
+5. str(문자열이라서)
+6. bool(참인지 거짓인지 판단하는 것이기 때문)
+7. int, bool(정수이기도 하고 1을 참으로 판단할 수도 있기 때문)
+8. int(정수+정수로 결과값도 정수이기 때문) 
+
+<P6>
+x = input("Input hundreds")
+y = input("Input tens")
+z = input("Input units")
+print('x','y','z')
+
+x = input("Input hundreds")
+y = input("Input tens")
+z = input("Input units")
+print(x*100+y*10+z)
+
+<P7>
+first_input_num = input("Input the first number")
+second_input_num = input("Input the second number")
+result = first_input_num / second_input_num
+print("The result is", result)
+
+<P8>
+first_input_num = input("Input the first number: ")
+operator = input("Which operator do you want to use?(* or /)")
+second_input_num = input("Input the second number: ")
+if operator = '*': result = first_input_num * second_input_num 
+elif operator = '/': result = first_input_num / second_input_num 
+print("The result is", result)
+
+<P9>
+first_input_num = input("Input the first number: ")
+second_input_num = input("Input the second number: ")
+if first_input_num > second_input_num: 
+	result = first_input_num + second_input_num
+elif first_input_num < second_input_num: 
+	result = second_input_num - first_input_num
+else: print((first_input_num, "and", second_input_num, "have the same value")
+print("The result is", result)
+
+<A1>
+first_input_num = float(input("Input the first number: ")) #첫번째 값을 입력받는다(문자열로 입력되기 때문에 float값으로 바꿔준다).
+operator = input("Which operator do you want to use?(+, -, * or /): ") #어떤 연산을 할지 입력받는다(+,-,*,/ 중).
+second_input_num =  float(input("Input the second number: ")) #두번째 값을 입력받는다.
+if operator == '+': result = first_input_num + second_input_num #연산자가 +이면 결과값에 첫번째와 두번째 값을 더한 값을 넣는다.
+elif operator == '-': result = first_input_num - second_input_num #연산자가 -이면 결과값에 첫번째와 두번째 값을 뺀 값을 넣는다.
+elif operator == '*': result = first_input_num * second_input_num #연산자가 *이면 결과값에 첫번째와 두번째 값을 곱한 값을 넣는다.
+elif operator == '/': result = first_input_num / second_input_num #연산자가 /이면 결과값에 첫번째와 두번째 값을 나눈 값을 넣는다.
+else: result = "not exist" #어떤 것도 아니면 오류 출력.
+print("The result is", result) #결과값 출력.
+
+
