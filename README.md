@@ -1,0 +1,2 @@
+# genia.python
+Studying Python
